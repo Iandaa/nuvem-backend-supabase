@@ -34,7 +34,7 @@ app.use(bodyParser.json());
 const supabase =
     supabaseClient.createClient(
         'https://zvdqclbyyjcayxmbrxab.supabase.co',
-        'SUA_CHAVE_SUPABASE'
+        'sb_publishable_42j06zG40bipp1q3BicpQQ_AkG6KCwZ'
     )
 
 app.get('/products', async (req, res) => {
